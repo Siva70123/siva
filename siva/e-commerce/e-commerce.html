@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Online Store</h1>
+    </header>
+
+    <section class="products-section">
+        <h2>Products</h2>
+        <div class="product" data-price="50">
+            <img src="shirt.jpg" alt="Shirt">
+            <h3>Shirt</h3>
+            <p>$50</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product" data-price="80">
+            <img src="shoes.jpg" alt="Shoes">
+            <h3>Shoes</h3>
+            <p>$80</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product" data-price="30">
+            <img src="hat.jpg" alt="Hat">
+            <h3>Hat</h3>
+            <p>$30</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product" data-price="120">
+            <img src="jacket.jpg" alt="Jacket">
+            <h3>Jacket</h3>
+            <p>$120</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </section>
+
+    <section class="cart-section">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <p id="total-price">Total: $0</p>
+        <button id="checkout-btn">Checkout</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

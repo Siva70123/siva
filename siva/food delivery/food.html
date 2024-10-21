@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Food Delivery</h1>
+    </header>
+
+    <div class="menu-container">
+        <h2>Our Menu</h2>
+        <div class="menu-item" data-price="10">
+            <img src="burger.jpg" alt="Burger">
+            <h3>Burger</h3>
+            <p>$10</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="menu-item" data-price="8">
+            <img src="pizza.jpg" alt="Pizza">
+            <h3>Pizza</h3>
+            <p>$8</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="menu-item" data-price="12">
+            <img src="pasta.jpg" alt="Pasta">
+            <h3>Pasta</h3>
+            <p>$12</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="menu-item" data-price="6">
+            <img src="salad.jpg" alt="Salad">
+            <h3>Salad</h3>
+            <p>$6</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="cart-container">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <p id="total-price">Total: $0</p>
+        <button id="checkout-btn">Checkout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
